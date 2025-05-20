@@ -1,9 +1,9 @@
-### Introduction to aLIME
-Anchor Local Interpretable Model-Agnostic Explanations (aLIME) is a methodology for providing transparent and understandable explanations of predictions made by machine learning models. This approach uses if-then rules as anchors that guarantee the prediction remains stable despite changes in other input features, and is applicable to any model, hence being model-agnostic.
+### Introduction to Anchors
+Anchors is a methodology for providing transparent and understandable explanations of predictions made by machine learning models. This approach uses if-then rules as anchors that guarantee the prediction remains stable despite changes in other input features, and is applicable to any model, hence being model-agnostic.
 
-### Key Concepts of aLIME
+### Key Concepts of Anchors
 - **Anchors**: These are specific rules or conditions derived from the input features that, when met, ensure the prediction outcome is constant, effectively "anchoring" the prediction.
-- **Model-Agnostic**: aLIME does not require any knowledge of the internal workings of the model. It treats the model as a black box, focusing on the input and output relationship.
+- **Model-Agnostic**: Anchors does not require any knowledge of the internal workings of the model. It treats the model as a black box, focusing on the input and output relationship.
 - **Local Explanation**: The explanations are local to each prediction instance, meaning they explain why the model made a specific prediction for an individual input.
 
 ### Mathematical Description
