@@ -5,3 +5,4 @@ ANCHOR_examples/rt-polaritydata/rt-polarity.neg
 .html
 LIME_Practice_Notebook.ipynb
 LIME_tabular_w_solution.ipynb
+LIME_textual_w_solution.ipynb
